@@ -1,0 +1,75 @@
+/* COLORS : 
+
+	#2B2B2B;
+	#DE1B1B;
+	#F6F6F6;
+	#E9E581;
+
+
+	color pallete https://www.crazyegg.com/blog/website-color-palettes/
+
+*/
+
+
+body, html {
+	background-color: #2B2B2B;
+	color: white;
+
+}
+
+#head {
+	background-color: #F6F6F6;
+	color: #2B2B2B;
+	min-height: 570px !important;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 100%;
+	margin-top: 50px;
+	padding: 0;
+	overflow: hidden;
+}
+
+h1 {
+	font-size: 48px;
+	text-transform: uppercase; 
+}
+
+h1 a {
+	color: #2B2B2B;
+	font-weight: bold;
+}
+
+h1 a:hover {
+	color: #DE1B1B;
+}
+
+
+#about, #skill, #contact {
+	margin-top: 30px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+}
+
+
+#my-projects {
+	background: transparent url("http://res.cloudinary.com/teiwik/image/upload/v1499122726/projects-bg_lp1ukl.jpg") fixed;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background: cover;
+}
+
+#my-projects h4 {
+	color: #2B2B2B;
+}
+
+#projects .img-thumbnail {
+	margin-bottom: 30px;
+}
+
+.progess {
+	height: 30px;
+}
